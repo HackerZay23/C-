@@ -1,0 +1,169 @@
+#include <iostream>
+using namespace std;
+int main (){
+string name;
+int x , y , count = 3 ;
+
+cout << "[What's your name?]";
+
+cin >> name ;
+
+    cout << "[Welcome! ]\n" << name;
+
+        cout << "  , In this exercise, you will play a game called true or false. You have to pick two numbers that equal the sum, product, and quotient. Good luck!\n";
+
+            cout << "[Easy Level - Enter two positive integers who's sum is 24, product is 144, and quotient is 1:] ";
+    cin >> x >> y;
+
+ if ( x <= 0 || y <= 0 ){ cout << "input is bad ";
+ return 0;
+ 
+ }
+        cout << " Sum is " << x + y << endl;
+       while ( x + y > 24){ cout << "[Try again]";
+     return 0;
+}
+      
+         ( x + y < 24){ cout <<"[Try Again";
+return 0;
+}
+        cout <<" product is " << x * y << endl;
+      while ( x * y > 144){ cout << " [Try again] ";
+return 0;
+}
+      while ( x * y < 144){ cout << " [Try again] ";
+
+return 0;
+}
+        cout << " quotient is " << x / y << endl;
+        
+    while ( x / y > 1){ cout << " [Try again] ";
+return 0;
+}
+    while ( x / y < 1){ cout << " [Try again] ";
+return 0;
+}
+
+cout << "[ Great Job - Onto the next one \n";
+
+cout << "[Intermediate Level - Enter two positive integers who's sum is 74, product is 144, and quotient is 36:] ";
+    cin >> x >> y;
+
+
+    cout << " Sum is " << x + y << endl;
+       if ( x + y > 74){ cout << " [Try again] ";
+       
+return 0;
+}
+    if ( x + y < 74){ cout << " [Try again]  ";
+return 0;
+}
+        cout <<" product is " << x * y << endl;
+     if ( x * y > 144){ cout << " [Try again] ";
+return 0;
+}
+      if ( x * y < 144 ){ cout << " [Try again] ";
+
+return 0;
+}
+        cout << " quotient is " << x / y << endl;
+        
+    if ( x / y > 36){ cout << " [Try again] ";
+return 0;
+}
+  if ( x / y < 36){ cout << " [Try again] ";
+return 0;
+}
+    cout << "[ Great Job - Onto the next one \n";
+
+    cout << " [Pro Level - Enter two positive integers who's sum is 6550, product is 327,500, and quotient is 130:] ";
+        cin >> x >> y;
+cout << " Sum is " << x + y << endl;
+       if ( x + y > 6550){ cout << " [Try again] ";
+       
+return 0;
+}
+    if ( x + y < 6550){ cout << " [Try again] ";
+return 0;
+}
+        cout <<" product is " << x * y << endl;
+     if ( x * y > 325000){ cout << " [Try again] ";
+return 0;
+}
+      if ( x * y < 325000){ cout << " [Try again]  ";
+
+return 0;
+}
+        cout << " quotient is " << x / y << endl;
+        
+    if ( x / y > 130){ cout << " [Try again] ";
+return 0;
+}
+  if ( x / y < 130){ cout << " [Try again] ";
+return 0;
+}
+
+     cout << "[Great Job. We're halfway through this exercise]: \n";
+    string yes;
+cout << " [Type yes, once you're ready] \n";
+cin >> yes ;
+cout << " Easy Level - Enter two negative integers who's sum is -12, product is 32, and quotient is 2:  ";
+cin >> x >> y;
+        cout << " Sum is " << x + y << endl;
+    if ( x + y > -12 ){ cout << " [Try again] ";
+return 0;
+}
+    if ( x + y < -12 ){ cout << " [Try again] ";
+return 0;
+}
+
+        cout << " product is " << x * y << endl;
+      if ( x * y > 32 ){ cout << " [Try again] ";
+return 0;
+}
+    if ( x * y < 32 ){ cout << " [Try again] ";
+return 0;
+}
+
+    cout << " Quotient is " << x / y << endl;
+    if ( x / y > 2){ cout << " [Try again] ";
+return 0;
+}
+    if ( x / y < 2){ cout << " [Try again] ";
+return 0;
+}
+    cout << "[ Great Job - Onto the next one \n";
+
+cout << " Hard Level - Enter two negative integers who's sum is -372, product is 4,320, and quotient is 30:  ";
+        cin >> x >> y;
+  cout << " Sum is " << x + y << endl;
+    if ( x + y > -372 ){ cout << " [Try again] ";
+return 0;
+}
+    if ( x + y < -372 ){ cout << " [Try again] ";
+return 0;
+}
+
+        cout << " product is " << x * y << endl;
+      if ( x * y > 4320 ){ cout << " [Try again] ";
+return 0;
+}
+    if ( x * y < 4320 ){ cout << " [Try again] ";
+return 0;
+}
+
+    cout << " Quotient is " << x / y << endl;
+    if ( x / y > 30){ cout << " [Try again] ";
+return 0;
+}
+    if ( x / y < 30){ cout << " [Try again] ";
+return 0;
+}
+
+
+
+      cout << "[You've Succeeded   ]"<< name;
+      
+return 0;
+}
+
